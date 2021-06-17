@@ -27,7 +27,7 @@ function updateGameLevel(newLevel) {
   if (gameInterval) {
     clearInterval(gameInterval)
   }
-  gameInterval = setInterval(gameRoutine, 8000 / (10 + level))
+  gameInterval = setInterval(gameRoutine, 1200 / (10 + level))
 }
 
 function updateScore(newScore) {
