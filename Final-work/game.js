@@ -97,7 +97,6 @@ function snackIsDead() {
 
 function ggler() {
   clearInterval(gameInterval)
-  console.log('Game','over')
 }
 
 function moveSnack() {
