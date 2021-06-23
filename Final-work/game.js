@@ -97,6 +97,7 @@ function snackIsDead() {
 
 function ggler() {
   clearInterval(gameInterval)
+  window.alert("遊戲結束,按開始遊戲重新開始")
 }
 
 function moveSnack() {
